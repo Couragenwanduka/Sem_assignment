@@ -1,0 +1,157 @@
+@font-face {
+  font-family: montserrat;
+  src: url(https://fonts.google.com/specimen/Montserrat);
+}
+@font-face{
+  font-family: fraunces;
+  src:url(https://fonts.google.com/specimen/Fraunces)
+}
+body{
+  width: 1300px;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: end;
+}
+.one{
+  display: flex;
+}
+.image1{
+  margin-top: 50px;
+  margin-left: 0%;
+  height: 60%;
+  width: 100%;
+}
+.three{
+  background-color:hsl(0, 0%, 100%);
+  margin-top: 50px;
+  height: 60.2%;
+  width: 36%;
+}
+.four{
+  margin-left: 8%;
+  margin-top: 10%;
+  font-weight: 100;
+  font-size: 13px;
+  font-family: fraunces;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.five{
+  font-family: montserrat;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  margin-left: 10%;
+  font-size: 50px;
+  margin-top: -0px;
+}
+.six{
+  font-family: fraunces;
+  font-size: 19px;
+  inline-size: 255px;
+  overflow-wrap: break-word;
+  margin-left: 30px;
+  word-spacing: 0px;
+  line-height: 27px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 200;
+  margin-top: -10px;
+}
+.seven{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: hsl(158, 36%, 37%);
+  font-weight: 400;
+  font-family: fantasy ;
+}
+
+.eight{
+  margin-top: -58.4px;
+  margin-left: 44%;
+  color:hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 15px;
+}
+.nine{
+  padding: 10px 70px 10px 70px;
+  margin-left: 10%;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color:hsl(157, 49%, 21%);
+  color: hsl(0, 0%, 100%);
+  font-family: montserrat;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.shopping_cart{
+  margin-left: 20%;
+  margin-bottom: -65px;
+  position: relative;
+  color: white;
+}
+@media only screen and (max-width: 762px) {
+  .image1{
+    rotate: 90deg;
+    width: 60%;
+    border-radius: 15px 0px 0px 15px;
+  }
+  .one{
+    display: flex;
+    flex-direction: column;
+    gap:0px ;
+  }
+  .three{
+    background-color:hsl(0, 0%, 100%);
+    width: 60%;
+    margin-top: -31%;
+    border-radius: 10px;
+    height: 90%;
+     }
+ .two{
+  margin-top: 10px;
+  border-radius: 0px 15px 15px 0px;
+ }
+ .nine{
+  position: relative;
+  top: -10px;
+  margin: 0;
+  margin-left: 70px;
+ 
+  animation: forNine 3s infinite;
+}
+@keyframes forNine {
+  0% {background-color: hsl(157, 49%, 21%);}
+  20% {background-color: hsl(157, 32%, 27%);}
+  30% {background-color: hsl(157, 40%, 26%);}
+  40% {background-color: hsl(158, 34%, 23%);}
+  50% {background-color: hsl(157, 30%, 38%);}
+  60% {background-color: hsl(157, 25%, 37%);}
+  70% {background-color: hsl(157, 30%, 29%);}
+  80% {background-color: hsl(156, 15%, 19%);}
+  90% {background-color: hsl(156, 21%, 24%);}
+  100% {background-color: hsl(158, 20%, 31%);}
+  0%{border: 3px solid hsl(227, 18%, 53%);}
+  10%{border: 3.1px solid hsl(228, 22%, 43%);}
+  20%{border: 3.2px solid hsl(228, 27%, 39%);}
+  30%{border: 3.3px solid hsl(228, 36%, 31%);}
+  4%{border: 3.4px solid hsl(228, 48%, 37%);}
+ 50%{border: 3.5px solid hsl(228, 53%, 40%);}
+  60%{border: 3.6px solid hsl(228, 61%, 35%);}
+  70%{border: 3.7px solid hsl(228, 68%, 35%);}
+  80%{border: 3.8px solid hsl(228, 67%, 33%);}
+  90%{border: 3.9px solid hsl(228, 82%, 28%);}
+}
+.seven ,.eight{
+  position: relative;
+  top: -10px;
+}
+
+.shopping_cart{
+display: none;  
+}
+
+}
+
+
